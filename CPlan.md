@@ -7,7 +7,7 @@
 * 1972 年在 DEC PDP-11 计算机上被首次实现。
 * 1978 年布莱恩·柯林汉和丹尼斯·里奇制作了 C 的第一个公开可用的描述，现在被称为 K&R 标准。
 * C 语言是以 B 语言为基础的，B 语言大概是在 1970 年被引进的。
-* 编程语言排名常年霸榜前3。数据来源：[https://www.tiobe.com/]()。
+* 编程语言排名常年霸榜前3。数据来源：[https://www.tiobe.com/](https://www.tiobe.com/)。
 
 ## 1.2C语言主要标准
 
@@ -23,9 +23,9 @@
 | 名称 | 操作系统         | 下载地址                                                                                                          |
 | ---- | ---------------- | ----------------------------------------------------------------------------------------------------------------- |
 | GCC  | WINDOWS          | [https://github.com/niXman/mingw-builds-binaries/releases](https://github.com/niXman/mingw-builds-binaries/releases) |
-|      | MAC OS           | [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)                                                        |
-|      | UNIX/Linux(内置) | [https://gcc.gnu.org/install/]()                                                                                     |
-| VC   | WINDOWS          | [https://visualstudio.microsoft.com/]()                                                                              |
+|      | MAC OS           | [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)                                             |
+|      | UNIX/Linux(内置) | [https://gcc.gnu.org/install/](https://gcc.gnu.org/install/)                                                         |
+| VC   | WINDOWS          | [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)                                           |
 |      |                  |                                                                                                                   |
 
 ## 1.4C语言编译过程
@@ -34,7 +34,7 @@
 
 ## Demo1_1
 
-* hello.c
+* foo.c
 
 ```C
 #include <stdio.h>
@@ -144,7 +144,9 @@ gcc hello.c -o hello.exe
 * 控制流语句
 * 函数定义
 * 返回语句
+
 ## 2.3注释
+
 * 单行注释
 * 多行注释
-* 
+*
