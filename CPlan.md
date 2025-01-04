@@ -20,13 +20,13 @@
 
 ## 1.3C语言常用编译器
 
-| 名称 | 操作系统         | 下载地址                                       |
-| ---- | ---------------- | ---------------------------------------------- |
-| GCC  | WINDOWS          | https://www.cygwin.com/                        |
-|      | MAC OS           | http://developer.apple.com/technologies/tools/ |
-|      | UNIX/Linux(内置) | http://gcc.gnu.org/install/                    |
-| VC   | WINDOWS          | https://visualstudio.microsoft.com/            |
-|      |                  |                                                |
+| 名称 | 操作系统         | 下载地址                                                                                                          |
+| ---- | ---------------- | ----------------------------------------------------------------------------------------------------------------- |
+| GCC  | WINDOWS          | [https://github.com/niXman/mingw-builds-binaries/releases](https://github.com/niXman/mingw-builds-binaries/releases) |
+|      | MAC OS           | [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)                                                        |
+|      | UNIX/Linux(内置) | [https://gcc.gnu.org/install/]()                                                                                     |
+| VC   | WINDOWS          | [https://visualstudio.microsoft.com/]()                                                                              |
+|      |                  |                                                                                                                   |
 
 ## 1.4C语言编译过程
 
