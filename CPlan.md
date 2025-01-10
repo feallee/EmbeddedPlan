@@ -34,24 +34,34 @@
 
 ## Demo1_1
 
-* foo.c
+* 题目
+
+演示C程序编译过程。
+
+* 源码
 
 ```C
+// foo.c
 #include <stdio.h>
+
 int main(void)
 {
-	printf("Hello world!\n");
-	return 0;
+    printf("Hello, World!");
+    return 0;
 }
 ```
 
-* 执行结果
+* 编译过程
+编译过程一般由下面4个步骤过程构成：编译->汇编->链接->加载。
 
 ```cmd
-gcc hello.c -o hello.exe
+PS C:\Projects\EmbeddedPlan> cd cplan\demo1_1
+PS C:\Projects\EmbeddedPlan\cplan\demo1_1> gcc -S foo.c -o foo.s
+PS C:\Projects\EmbeddedPlan\cplan\demo1_1> gcc -c foo.s -o foo.o
+PS C:\Projects\EmbeddedPlan\cplan\demo1_1> gcc foo.o -o foo.exe
+PS C:\Projects\EmbeddedPlan\cplan\demo1_1> ./foo.exe
+Hello, World!
 ```
-
-执行结果
 
 # 2C语言基础语法
 
